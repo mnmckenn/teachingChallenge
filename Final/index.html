@@ -6,15 +6,38 @@
         <meta name="viewport" content="width-device-width, initial-scale=1">
         <title>IntentionJS Demo</title>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="js/intention.js"></script>
         <script src="js/context.js"></script>
         
-        
     </head>
     <body>
+        <div class="container">
+            <h1>IntentionJS Demo</h1>
+            <p>Please follow along with the video presentation to turn this page into a full working demo. If you want to skip to the finished product, please go to the final folder and open the index.html in that folder.</p>
+            <p>Happy coding!</p>
+        </div>
+        <div class="container" intent
+             in-mobile-class="red"
+             in-tablet-class="green"
+             in-standard-class="blue">
+            <h2>Class manipulation demo</h2>
+            <p>As you adjust the screen width (large to small) this text should turn from Blue to Green to Red.</p>
+        </div>
         
+        <div class="container">
+            <h2>Attribute manipulation demo</h2>
+            <img intent
+                 in-standard-src="img/computer.jpg"
+                 in-tablet-src="img/tablet.jpg"
+                 in-mobile-src="img/mobile.jpeg"
+                 />
+        </div>
+        <div class="container">
+            <h2>Placement manipulation demo</h2>
+        </div>
     </body>
 </html>
